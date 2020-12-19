@@ -61,6 +61,7 @@ export default function Layout({ children, home }) {
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>
+            {/*  target="_blank" rel="noopener noreferrer" */}
           </Link>
         </div>
       )}
