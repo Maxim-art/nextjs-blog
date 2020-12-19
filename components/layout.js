@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "Maxim";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Maxpike, Next.js Website";
 
 export default function Layout({ children, home }) {
   return (

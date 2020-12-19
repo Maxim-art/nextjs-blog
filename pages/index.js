@@ -1,4 +1,5 @@
 import Head from "next/head";
+// import Alert from "../components/alert";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 
@@ -10,6 +11,10 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Frontend Developer</p>
+
+        {/* <Alert type="success">success</Alert>
+        <Alert type="error">error</Alert> */}
+
         {/* <p>
           (Site on <a href="https://nextjs.org/learn">Next.js</a>)
         </p> */}
